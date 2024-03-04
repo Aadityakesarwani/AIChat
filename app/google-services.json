@@ -1,36 +1,27 @@
 {
   "project_info": {
-    "project_number": "285994488807",
-    "project_id": "chatgpt-12b1f",
-    "storage_bucket": "chatgpt-12b1f.appspot.com"
+    "project_number": "567666725438",
+    "firebase_url": "https://chatbot-9e5b5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatbot-9e5b5",
+    "storage_bucket": "chatbot-9e5b5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:285994488807:android:843d4f8a5c1e04dcd5a342",
+        "mobilesdk_app_id": "1:567666725438:android:30f316d8275f03710df76f",
         "android_client_info": {
-          "package_name": "com.innovativetools.conversai"
+          "package_name": "com.innovativetools.ai.myaiassistant"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "285994488807-g6vor95n3j59mfjqri7ljcj7nok9us9q.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAYA0qHuDItlS5hXniaq9cRlUiF9cPxGkw"
+          "current_key": "AIzaSyDHsPsni6CUhBUPbxqfUiyX18EV5nUllEI"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "285994488807-g6vor95n3j59mfjqri7ljcj7nok9us9q.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

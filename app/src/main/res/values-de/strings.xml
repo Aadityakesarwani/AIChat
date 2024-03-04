@@ -1,0 +1,472 @@
+<resources>
+    <string name="app_name">KI-Assistent</string>
+    <string name="chat">Chat</string>
+    <string name="assistants">Assistenten</string>
+    <string name="my_assistants">Meine Assistenten</string>
+    <string name="history">Verlauf</string>
+    <string name="title_upgrade_to_pro">Auf Pro aktualisieren</string>
+    <string name="unlock_premium_txt">Schalten Sie Premium-Funktionen frei und verbessern Sie Ihre Erfahrung!</string>
+    <string name="app_icon">App-Symbol</string>
+    <string name="how_can_assist">Wie kann ich Ihnen helfen</string>
+    <string name="share">Teilen</string>
+    <string name="text_copied">Text kopiert</string>
+    <string name="academics">Bildung</string>
+    <string name="creative">Kreativ</string>
+    <string name="email_newsletter">E-Mail-Newsletter</string>
+    <string name="email_newsletter_description">Generieren Sie hochwertige E-Mail-Newsletter.</string>
+    <string name="product_description">Produktbeschreibung</string>
+    <string name="product_description_desc">Verfassen Sie eine SEO-freundliche Produktbeschreibung.</string>
+    <string name="facebook_adcopy">Facebook-Anzeigentext</string>
+    <string name="facebook_adcopy_description">Erstellen Sie hochwertige, konvertierende Facebook-Anzeigentexte.</string>
+    <string name="google_adcopy">Google-Anzeigentext</string>
+    <string name="google_adcopy_description">Erstellen Sie hochwertige, konvertierende Google-Anzeigentexte.</string>
+    <string name="content_ideas">Inhaltsideen</string>
+    <string name="unlock">Freischalten</string>
+    <string name="limitless">Unbegrenzt</string>
+    <string name="convo_with">Unterhaltung mit</string>
+    <string name="content_ideas_description">Generieren Sie SEO-optimierte, einzigartige Inhaltsideen.</string>
+    <string name="landingpage_copy">Kopie der Landingpage</string>
+    <string name="landingpage_copy_description">Generieren Sie schnell die perfekte Landingpage.</string>
+    <string name="domainname_serach">Domain-Suche</string>
+    <string name="domainname_serach_description">Erhalten Sie Domainnamen, die einzigartig und SEO-freundlich sind.</string>
+    <string name="business_plan">Geschäftsplan</string>
+    <string name="business_plan_description">Erstellen Sie einen umfassenden Geschäftsplan.</string>
+    <string name="resume_builder">Lebenslauf-Generator</string>
+
+
+    <string name="resume_builder_description">Erstellen Sie einen herausragenden Lebenslauf für Ihren Job.</string>
+    <string name="resume_builder_example1">Jobtitel: Blockchain-Entwickler. Branche: Technologie. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Informatik, 1 Jahr Erfahrung in der Entwicklung von Blockchain-Anwendungen.</string>
+    <string name="resume_builder_example2">Jobtitel: Softwareentwickler. Branche: Technologie. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Informatik, 3 Jahre Erfahrung in der Entwicklung von Web- und mobilen Anwendungen, fundierte Kenntnisse in Java, Python und SQL.</string>
+    <string name="resume_builder_instruction">Geben Sie den Jobtitel, die Branche und die wichtigsten Qualifikationen und Fähigkeiten des Lebenslaufs an.</string>
+    <string name="job_interview">Bewerbungsgespräch</string>
+    <string name="job_interview_description">Replizieren Sie ein Bewerbungsgespräch.</string>
+    <string name="job_interview_example1">Jobtitel: Projektmanager. Branche: Bauwesen. Thema: Verhalten, Führungsfähigkeiten.</string>
+    <string name="job_interview_example2">Jobtitel: Grafikdesigner. Branche: Medien und Unterhaltung. Thema: Portfolio-Überprüfung, Kreativitätsfähigkeiten.</string>
+    <string name="job_interview_instruction">Geben Sie den Jobtitel, die Branche und den Haupttyp sowie das Thema des Interviews an.</string>
+    <string name="fiver_gig">Fiverr-Beschreibung</string>
+    <string name="fiver_gig_description">Erstellen Sie eine ansprechende Fiverr-Gig-Beschreibung.</string>
+    <string name="fiver_description_example2">Gig-Titel: Ich werde ansprechende und SEO-freundliche Blog-Beiträge für Sie schreiben. Kategorie: Schreiben. Funktionen/Vorteile: Hochwertiger, origineller und gut recherchierter Inhalt, optimiert für Schlüsselwörter und Lesbarkeit, pünktliche Lieferung innerhalb des Budgets.</string>
+    <string name="fiver_description_example1">Erstellen Sie eine professionelle Fiverr-Beschreibung für den Titel \'Freiberuflicher Digital Marketing Specialist\'.</string>
+    <string name="fiver_instruction">Geben Sie Titel, Kategorie und Funktionen in die Eingabe ein.</string>
+    <string name="upwork_proposal">Upwork-Vorschlag</string>
+    <string name="upwork_proposal_description">Generieren Sie einen erfolgreichen Upwork-Vorschlag.</string>
+
+    <string name="upwork_proposal_example1">Profil-Titel: Erfahrener und zuverlässiger virtueller Assistent. Kategorie: Admin-Unterstützung. Fähigkeiten: Dateneingabe, Webrecherche</string>
+    <string name="upwork_proposal_example2">Profil-Titel: Experte und zertifizierter Digital Marketer. Kategorie: Marketing. Fähigkeiten: Digitales Marketing, SEO</string>
+    <string name="upwork_proposal_instruction">Geben Sie den Profil-Titel, die Kategorie und die Fähigkeiten Ihres Vorschlags an.</string>
+    <string name="song_lyrics">Songtexte</string>
+    <string name="song_lyrics_description">Verwandeln Sie Ihre Gedanken in Songtexte.</string>
+    <string name="song_lyrics_example1">Verfassen Sie Songtexte für den Titel \'Reise zu den Sternen\'.</string>
+    <string name="song_lyrics_example2">Erstellen Sie Songtexte für den Titel \'Echoes in the Rain\'.</string>
+    <string name="poem">Gedichte</string>
+    <string name="poem_description">Generieren Sie schöne Gedichte.</string>
+    <string name="poem_example1">Verfassen Sie ein Gedicht mit dem Titel \'Der flüsternde Wind\'.</string>
+    <string name="poem_example2">Gestalten Sie ein Gedicht mit dem Titel \'Tanz der Herbstblätter\'.</string>
+    <string name="short_story">Kurzgeschichte</string>
+    <string name="short_story_description">Verwandeln Sie Ihre Gedanken in eine Geschichte.</string>
+    <string name="short_story_example1">Erstellen Sie eine Kurzgeschichte basierend auf der Beschreibung \'Ein mysteriöses Artefakt wird in einer alten Ruine entdeckt\', mit Schlüsselwörtern \'Abenteuer, Archäologie, Geheimnis\'.</string>
+    <string name="short_story_example2">Gestalten Sie eine Kurzgeschichte basierend auf der Beschreibung \'Eine unerwartete Begegnung in einem malerischen kleinen Café\', mit Schlüsselwörtern \'Romantik, Fügung, Kaffee\'.</string>
+
+
+    <string name="diet_plan">Diätplan</string>
+    <string name="diet_plan_description">Generieren Sie die besten Diätpläne.</string>
+    <string name="diet_plan_example1">Erstellen Sie einen Diätplan für eine 25-jährige Frau, die abnehmen möchte, mit einer Größe von 5\'4\'\' und einem Gewicht von 70 kg.</string>
+    <string name="diet_plan_example2">Entwickeln Sie einen Diätplan für eine 30-jährige Frau, die ein gesundes Gewicht halten möchte, mit einer Größe von 5\'6\'\' und einem Gewicht von 60 kg.</string>
+    <string name="food_recipe">Rezepte</string>
+    <string name="food_recipe_description">Generieren Sie köstliche Rezepte.</string>
+    <string name="food_recipe_example1">Erstellen Sie ein Rezept für \'Hähnchen Alfredo Pasta\'.</string>
+    <string name="food_recipe_example2">Gestalten Sie ein Rezept für \'Hausgemachte Sushi-Rollen\'.</string>
+    <string name="essay">Aufsatzschreiben</string>
+    <string name="essay_description">Generieren Sie plagiatfreie Essays zu jedem Thema.</string>
+    <string name="business">Geschäft</string>
+    <string name="social_media">Soziale Medien</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="linkedin_description">Erstellen Sie auf LinkedIn aufmerksamkeitsstarke Beiträge.</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_description">Verfassen Sie Bildunterschriften, die auf Instagram das Publikum anziehen.</string>
+    <string name="twitter">Twitter-Beitrag</string>
+    <string name="twitter_description">Schreiben Sie Tweets, die die Aufmerksamkeit der Leser auf Twitter erregen.</string>
+    <string name="tiktok">TikTok-Idee</string>
+    <string name="tiktok_description">Erstellen Sie auf TikTok aufmerksamkeitserregende und virale Untertitel.</string>
+    <string name="youtube">YouTube-Skript</string>
+    <string name="youtube_idea">Inhaltsidee</string>
+    <string name="youtube_description">Erstellen Sie fesselnde Skriptideen für Ihre YouTube-Videos.</string>
+    <string name="youtube_idea_description">Erstellen Sie einzigartige und SEO-optimierte YouTube-Inhaltsideen.</string>
+    <string name="youtube_script_instruction">Schreiben Sie eine klare und prägnante Beschreibung des Videos, und es wird einen einprägsamen Titel, Schlüsselwörter und ein Skript generieren.</string>
+    <string name="youtube_idea_instruction">Geben Sie die Kategorie an, für welche Art von Inhaltsideen Sie suchen.</string>
+    <string name="career">Karriere</string>
+
+
+    <string name="health">Gesundheit</string>
+    <string name="all">Alle</string>
+    <string name="prompt_1">Erkunden Sie Wissen mit nur einer Frage. \n Geschichte, Wissenschaft oder jedes andere Thema, das Sie interessiert.</string>
+    <string name="copy">Kopieren</string>
+    <string name="product_description_example1">Name: AirPods Pro. Kategorie: Kabellose Ohrhörer. Funktionen: Aktive Geräuschunterdrückung, adaptive EQ, Transparenzmodus</string>
+    <string name="product_description_example2">Name: Netflix. Kategorie: Streaming-Dienst. Funktionen: Unbegrenzte Filme und TV-Sendungen</string>
+    <string name="product_description_example3">Name: Kindle Paperwhite. Kategorie: E-Reader. Funktionen: Hochauflösender Bildschirm, wasserdicht</string>
+    <string name="product_description_instruction">Geben Sie Name, Kategorie und Funktionen des Produkts oder Dienstes an</string>
+    <string name="email_newsletter_example1">Thema: Tipps zum digitalen Marketing. Zweck: Die neuesten Trends und bewährten Methoden im digitalen Marketing teilen. Punkte: Website optimieren, erfolgreiche Social-Media-Kampagne, ROI verbessern</string>
+    <string name="email_newsletter_example2">Thema: Ratschläge zur persönlichen Finanzierung. Zweck: Menschen helfen, ihr Geld besser zu verwalten. Punkte: Wie man ein Budget erstellt und sich daran hält, Geld bei alltäglichen Ausgaben spart, investiert und seinen Wohlstand steigert.</string>
+    <string name="email_newsletter_example3">Zweck: Menschen dazu inspirieren, mehr zu reisen und neue Orte zu erkunden. Punkte: Die besten Reiseziele, die kostengünstigsten und bequemsten Reisemöglichkeiten, die erstaunlichsten Erfahrungen und Aktivitäten zum Ausprobieren.</string>
+    <string name="email_newsletter_instruction">Geben Sie Thema, Zweck und Punkte an, um das beste E-Mail-Newsletter zu erstellen.</string>
+    <string name="facebook_adcopy_instuction">Verfassen Sie eine Facebook-Adcopy für einen Online-Kurs, der sich an Fachleute richtet, mit dem Ziel, die Anmeldungen für den Kurs zu erhöhen</string>
+    <string name="facebook_adcopy_example1">Name: Grammarly. Kategorie: Schreibwerkzeug. Nutzen: Verbessern Sie Ihre Schreibfähigkeiten und vermeiden Sie Fehler</string>
+    <string name="facebook_adcopy_example2">Name: Blue Apron. Kategorie: Mahlzeit-Lieferdienst. Nutzen: Genießen Sie köstliche und gesunde Mahlzeiten ohne Aufwand</string>
+    <string name="facebook_adcopy_example3">Name: Headspace. Kategorie: Meditations-App. Nutzen: Reduzieren Sie Stress und Angst und verbessern Sie Ihr Wohlbefinden.</string>
+    <string name="facebook_adcopy_instruction">Geben Sie Name, Kategorie und Funktionen oder Nutzen des Produkts oder Dienstes an.</string>
+    <string name="google_adcopy_example1">Name: Spotify. Kategorie: Musik-Streaming-Dienst. Nutzen: Hören Sie Millionen von Songs und Podcasts kostenlos.</string>
+    <string name="google_adcopy_example2">Name: Uber. Kategorie: Fahrdienst. Nutzen: Erhalten Sie in Minuten eine Fahrt mit einem Fingertipp.</string>
+    <string name="google_adcopy_example3">Name: Shopify. Kategorie: E-Commerce-Plattform. Nutzen: Starten Sie Ihren eigenen Online-Shop und verkaufen Sie alles, was Sie möchten.</string>
+
+
+    <string name="google_adcopy_instruction">Geben Sie Name, Kategorie und Funktionen oder Nutzen des Produkts oder Dienstes an.</string>
+    <string name="content_ideas_example1">Thema: Yoga. Branche: Gesundheit und Wellness. Ziel: Die Menschen über die Vorteile und Arten von Yoga aufklären.</string>
+    <string name="content_ideas_example2">Thema: Kryptowährung. Branche: Finanzen und Technologie. Ziel: Die Menschen über Grundlagen und Trends von Kryptowährungen informieren.</string>
+    <string name="content_idea_instruction">Geben Sie Thema, Branche und Ziel des Inhalts an.</string>
+    <string name="landingpage_copy_example1">Name: Zoom. Kategorie: Videokonferenzsoftware. Nutzen: Mit jedem, überall und jederzeit verbinden und zusammenarbeiten.</string>
+    <string name="landingpage_copy_example2">Name: Duolingo. Kategorie: Sprachlern-App. Nutzen: Lernen Sie eine neue Sprache kostenlos mit lustigen und interaktiven Lektionen.</string>
+    <string name="landingpage_copy_example3">Name: Airbnb. Kategorie: Plattform für die Buchung von Unterkünften. Nutzen: Einzigartige Unterkünfte auf der ganzen Welt finden und buchen.</string>
+    <string name="landingpage_copy_instruction">Geben Sie den Namen, die Kategorie und den Hauptnutzen des Produkts oder Dienstes an.</string>
+    <string name="domain_name_example1">Name: Ein Blog über Reisen und Fotografie. Kategorie: Blog. Schlüsselwort: Reisen</string>
+    <string name="domain_name_example2">Name: Ein Online-Shop, der handgefertigten Schmuck verkauft. Kategorie: E-Commerce. Schlüsselwort: Schmuck</string>
+    <string name="domain_name_instruction">Geben Sie den Namen, die Kategorie und das Haupt-Keyword der Website oder des Unternehmens an</string>
+    <string name="business_plan_example1">Name: UberEats. Kategorie: Lebensmittellieferdienst. Ziel: Schnelle, bequeme und erschwingliche Lebensmittellieferung für Kunden und Restaurants bereitstellen.</string>
+    <string name="business_plan_example2">Name: Spotify. Kategorie: Musik-Streaming-Dienst. Ziel: Unbegrenzten Zugang zu Millionen von Songs und Podcasts für Hörer und Künstler bereitstellen.</string>
+    <string name="business_plan_instruction">Geben Sie den Namen, die Kategorie und das Hauptziel des Startups oder Unternehmens an</string>
+    <string name="linkedin_example1">Die Auswirkungen von Remote-Arbeit auf die Produktivität und psychische Gesundheit der Mitarbeiter</string>
+    <string name="linkedin_example2">Tipps, wie man effektiv in virtuellen Konferenzen netzwerkt</string>
+    <string name="instagram_example1">Leckere hausgemachte Pizza</string>
+
+    <string name="song_instruction">Schreiben Sie, über welche Art von Songtexten Sie generieren möchten</string>
+    <string name="poem_instruction">Schreiben Sie, über welche Art von Gedicht Sie generieren möchten</string>
+    <string name="short_story_instruction">Schreiben Sie über die Idee/den Gedanken, für den/die Sie eine Kurzgeschichte generieren möchten</string>
+
+
+    <string name="instagram_example2">Atemberaubende Bergaussicht</string>
+    <string name="instagram_example3">Workout-Motivation</string>
+    <string name="instagram_example4">Kaffeemomente</string>
+    <string name="twitter_example1">Vorteile einer pflanzlichen Ernährung</string>
+    <string name="twitter_example2">Auswirkungen künstlicher Intelligenz auf unseren Alltag</string>
+    <string name="tiktok_example1">Schnelle und einfache Workout-Routine</string>
+    <string name="tiktok_example2">Zaubertrick-Tutorial</string>
+    <string name="tiktok_instruction">Schreiben Sie über das Thema, für das Sie TikTok-Inhalte generieren möchten</string>
+    <string name="linkedin_instruction">Schreiben Sie über das Thema, für das Sie einen Beitrag generieren möchten</string>
+    <string name="instagram_instruction">Schreiben Sie über das Thema, für das Sie eine Bildunterschrift generieren möchten</string>
+    <string name="twitter_instruction">Schreiben Sie über das Thema, für das Sie einen Beitrag generieren möchten</string>
+    <string name="youtube_example">Ein Video darüber, wie man in 15 Minuten eine leckere und gesunde Mahlzeit kocht</string>
+    <string name="youtube_example1">Ein Video darüber, wie man in 30 Tagen eine neue Sprache lernt, indem man eine einfache und effektive Methode verwendet</string>
+    <string name="youtube_example2">Ein Video darüber, wie man online Geld verdienen kann, unter Verwendung verschiedener Methoden und Plattformen</string>
+    <string name="youtube_idea_example">Gaming</string>
+    <string name="youtube_idea_example1">Inhaltsidee für Bildung</string>
+    <string name="youtube_idea_example2">Wissenschaft &amp; Technologie</string>
+    <string name="prompt_examples">Beispiele:</string>
+    <string name="no_history">Kein Verlauf verfügbar</string>
+    <string name="clear_all_history">Alle Verlauf löschen</string>
+    <string name="are_you_sure_delete_all_history">Möchten Sie wirklich alles löschen??</string>
+    <string name="cancel">Abbrechen</string>
+
+
+    <string name="clear_all">Alles löschen</string>
+    <string name="search_conversation">Suchen…</string>
+    <string name="upgrade_to_pro">Upgraden</string>
+    <string name="language">Sprache</string>
+    <string name="dark_theme">Dunkelmodus</string>
+    <string name="share_app">App teilen</string>
+    <string name="rate_us">App bewerten</string>
+    <string name="app_features">APP-FUNKTIONEN</string>
+    <string name="mng_subscription">ABO VERWALTEN</string>
+    <string name="help_support">HILFE UND SUPPORT</string>
+    <string name="feature1">Modernes GPT-4-Modell</string>
+    <string name="feature2">Unbegrenzte Frage- und Antwortfähigkeiten</string>
+    <string name="feature3">Schnelle und präzisere Antworten</string>
+    <string name="feature4">Werbeblockierung</string>
+    <string name="feature5">Jederzeit kündbar</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="logout">Abmelden</string>
+    <string name="are_you_sure_logout">Möchten Sie sich wirklich abmelden?</string>
+    <string name="yes_logout">Ja, abmelden</string>
+    <string name="settings">Einstellungen</string>
+    <string name="restore_purchase">Kauf wiederherstellen</string>
+    <string name="pro">PRO</string>
+    <string name="powered_by">Powered by GPT-4</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="weekly">Wöchentlich</string>
+    <string name="yearly">Jährlich</string>
+    <string name="per_week">Pro Woche</string>
+    <string name="per_year">Pro Jahr</string>
+    <string name="save85">86% sparen</string>
+    <string name="watch_an_ad">Werbung ansehen (1 Guthaben)</string>
+    <string name="watch_two_ad">2x Werbung ansehen (3 Guthaben)</string>
+    <string name="one_more_to_watch">Noch eine ansehen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="by_subscribing">Mit dem Abonnement stimmen Sie zu</string>
+    <string name="billing_message">Abonnements werden über Ihre Google Play Billing abgerechnet und verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor dem Ende des aktuellen Zeitraums storniert werden. Verwalten Sie Ihr Abonnement in den Kontoeinstellungen nach dem Kauf.</string>
+    <string name="you_reach_free_message_limit">Sehen Sie sich Anzeigen an, um zusätzliche Nachrichtenguthaben zu erhalten, oder upgraden Sie, um alle Premiumfunktionen zu genießen.</string>
+    <string name="enjoying_app">MyAiAssistant genießen?</string>
+    <string name="take_a_moment_to_review_this_app">Bitte nehmen Sie sich einen Moment Zeit, um diese App zu bewerten.</string>
+    <string name="thanks_for_support">Vielen Dank für Ihre Unterstützung :)</string>
+    <string name="welcome_to_pro_version">Erfolgreich aufgerüstet</string>
+    <string name="pro_not_purchased">Die Pro-Version wurde nicht gekauft</string>
+    <string name="connection_issue">Verbindungsproblem</string>
+    <string name="connect_try_again">Verbinden Sie sich mit dem Internet und versuchen Sie es erneut.</string>
+    <string name="there_is_new_version">Neue App-Version verfügbar, bitte aktualisieren</string>
+    <string name="never">Nie\n</string>
+
+
+    <string name="rate_now">Jetzt bewerten\n</string>
+    <string name="quote_maker">Zitatgenerator</string>
+    <string name="quote_desc">Generiere Zitate für alle Kategorien</string>
+    <string name="quote_instruction">Gib die Kategorie an, für die du Zitate möchtest</string>
+    <string name="quote_example">Inspirierende Zitate</string>
+    <string name="quote_example1">Philosophische Zitate</string>
+    <string name="quote_example2">Humorvolle Zitate</string>
+    <string name="quote_example3">Beziehungs-Zitate</string>
+    <string name="bio_maker">Profilbiografie</string>
+    <string name="bio_desc">Generiere eine coole Biografie für dein Profil</string>
+    <string name="bio_instruction">Frage nach einer Biografie für dich oder jemand anderen. Name, Beruf, Hobbys, Ziele</string>
+    <string name="bio_example">Biografie für Anna, Lehrerin, Gärtnern, Yoga, die Welt bereisen</string>
+    <string name="bio_example1">Biografie für dich selbst, Ingenieur, Gaming, Codieren, ein Startup gründen</string>
+    <string name="bio_example2">Koch, Kochen, Musik, ein Restaurant eröffnen</string>
+    <string name="bio_example3">Student, Tanzen, Malen, Künstler werden</string>
+    <string name="meme_maker">Witze</string>
+    <string name="meme_desc">Erstelle lustige und virale Witze</string>
+    <string name="meme_instruction">Schreibe über das Thema/Kategorie, für das du Witze generieren möchtest.</string>
+    <string name="meme_example">Bürostreiche</string>
+    <string name="meme_example1">Beziehungshumor</string>
+    <string name="meme_example2">Reisepannen</string>
+    <string name="meme_example3">Promi-Ausrutscher</string>
+    <string name="poll_maker">Umfrageersteller</string>
+    <string name="poll_desc">Erstelle lustige, informative, relevante Umfragen</string>
+    <string name="poll_instruction">Gib das Thema an, für das du eine Umfrage generieren möchtest</string>
+    <string name="poll_example">Unterhaltung</string>
+    <string name="poll_example1">Sport</string>
+    <string name="poll_example2">Hobbys</string>
+    <string name="poll_example3">Musik</string>
+    <string name="witty_reply">Geistreiche Antwort</string>
+
+
+    <string name="witty_reply_desc">Generiere sarkastische Antworten</string>
+    <string name="witty_reply_instruction">Gib Kontext, Ziel und Schlüsselwörter an oder tippe einfach die Nachricht</string>
+    <string name="witty_reply_example">Siehst wunderschön aus</string>
+    <string name="witty_reply_example1">Kontext: "deine Nachricht", Ziel: Familienmitglied, Schlüsselwörter: Stolz, Erfolge, feiern, danke, einladen</string>
+    <string name="witty_reply_example2">Kontext: "deine Nachricht", Ziel: Schwarm, Schlüsselwörter: Entschuldigung, nicht, antworten, beschäftigt, verstehen</string>
+    <string name="story_time">Geschichtenzeit</string>
+    <string name="story_time_desc">In eine Geschichte eintauchen</string>
+    <string name="story_time_instruction">Gib Details wie Genre, Szene, Charakter und Handlung als Eingabe an, getrennt durch Kommas</string>
+    <string name="story_time_example">Sci-Fi, Raumstation, Hacker, Daten, infiltrieren, entkommen</string>
+    <string name="story_time_example1">Romantik, Café, Schriftsteller, Schwarm, treffen, verbinden</string>
+    <string name="story_time_example2">Komödie, Wiedersehen, Anwalt, Klassenkameraden, angeben, dealen</string>
+    <string name="story_time_example3">Horror, Herrenhaus, Entdecker, Geheimnis, überleben, entkommen</string>
+    <string name="essay_writing">Essay schreiben</string>
+    <string name="essay_instruction">Gib das Thema, die Art und die Länge des Essays an</string>
+    <string name="essay_desc">Generiere einen Essay zu jedem Thema</string>
+    <string name="essay_example">Thema: Die Vorteile der Meditation. Art: Argumentativ. Länge: 500 Wörter.</string>
+    <string name="essay_example1">Die Auswirkungen von sozialen Medien auf die psychische Gesundheit. Art: Analytisch. Länge: 250 Wörter.</string>
+    <string name="essay_example2">Thema: Der denkwürdigste Moment deines Lebens. Art: Narrativ. Länge: 750 Wörter.</string>
+
+
+    <string name="summarizer">Zusammenfasser</string>
+    <string name="summarizer_instruction">Gib den Text und die Länge der Zusammenfassung an</string>
+    <string name="summarizer_desc">Summarizer ermöglicht es Ihnen, Notizen, Texte usw. zusammenzufassen.</string>
+    <string name="summarizer_example">Text: [dein Text]. Länge: 300 Wörter.</string>
+    <string name="summarizer_example1">Text: [dein Text]. Länge: 100 Wörter.</string>
+    <string name="lang_translation">Sprachübersetzung</string>
+    <string name="translation_instruction">Gib den Text und die Zielsprache an</string>
+    <string name="translation_desc">Übersetze jede Sprache</string>
+    <string name="translation_example">Text: Hallo, wie geht es Ihnen? Sprache: Spanisch.</string>
+    <string name="translation_example1">Text: こんにちは、元気ですか？ Sprache: Französisch</string>
+    <string name="translation_example2">Text: नमस्ते, आप कैसे हैं? Sprache: Englisch</string>
+    <string name="paraphrase">Umschreibung</string>
+    <string name="paraphrase_instruction">Gib den Text und den Zweck der Umschreibung an</string>
+    <string name="paraphrase_desc">Umschreibe jeden Text</string>
+    <string name="paraphrase_example">Text: Sein oder nicht sein, das ist hier die Frage. Zweck: klar.</string>
+    <string name="paraphrase_example1">Text: Ehrlichkeit währt am längsten. Zweck: überzeugend.</string>
+    <string name="paraphrase_example2">Text: An apple a day keeps the doctor away. prägnant.</string>
+    <string name="quiz">Quiz Maker</string>
+    <string name="quiz_instruction">Gib den Text und den Zweck der Umschreibung an</string>
+    <string name="quiz_desc">Umschreibe jeden Text</string>
+    <string name="quiz_example">Thema: Wissenschaft. Typ: Kurze Antwort. Schwierigkeit: Mittel.</string>
+    <string name="quiz_example1">Thema: Literatur. Typ: Lückentext. Schwierigkeit: Mittel.</string>
+    <string name="quiz_example2">Thema: Geografie. Typ: Multiple Choice. Schwierigkeit: Leicht.</string>
+    <string name="tutor">Nachhilfe</string>
+    <string name="tutor_instruction">Gib das Fach, das Konzept und das Ziel der Nachhilfestunde an</string>
+    <string name="tutor_desc">Lernen Sie mit einem persönlichen Tutor</string>
+    <string name="tutor_example">Fach: Englisch. Konzept: Grammatik. Ziel: Das korrekte Verwenden von Zeitformen lernen.</string>
+    <string name="tutor_example3">Fach: Spanisch. Konzept: Vokabular. Ziel: Das Sprechen über Essen und Getränke lernen.</string>
+    <string name="tutor_example1">Fach: Kunst. Konzept: Farbtheorie. Ziel: Das Mischen und Kombinieren von Farben für das Malen lernen.</string>
+    <string name="tutor_example2">Fach: Musik. Konzept: Rhythmus. Ziel: Das Lesen und Spielen grundlegender Rhythmusmuster lernen.</string>
+
+
+
+    <string name="researcher">Forscher</string>
+    <string name="researcher_instruction">Geben Sie das Thema, die Frage und die Quelle der Forschung an</string>
+    <string name="researcher_desc">Forschung zu jedem Thema</string>
+    <string name="researcher_example">Thema: Klimawandel. Frage: Was sind die Hauptursachen und Auswirkungen der globalen Erwärmung? Quelle: Wissenschaftliche Zeitschriften.</string>
+    <string name="researcher_example1">Thema: Soziale Medien. Frage: Wie beeinflussen soziale Medien die psychische Gesundheit und das Wohlbefinden? Quelle: Online-Umfragen.</string>
+    <string name="researcher_example2">Thema: Robotik. Frage: Was sind die aktuellen und zukünftigen Anwendungen und Herausforderungen der Robotik? Quelle: Nachrichtenartikel.</string>
+    <string name="proverbe">Sprichwörter</string>
+    <string name="proverbe_instruction">Geben Sie die Kategorie der Sprichwörter und die Sprache an.</string>
+    <string name="proverbe_desc">Verwenden Sie Sprichwörter auf bessere Weise mit dem Sprichwort-Experten</string>
+    <string name="proverbe_example">Kategorie: Weisheit, Sprache: Englisch</string>
+    <string name="proverbe_example1">Kategorie: Liebe und Beziehungen, Sprache: Spanisch</string>
+    <string name="proverbe_example2">Kategorie: Lebensherausforderungen, Sprache: Japanisch</string>
+    <string name="roadmap">Roadmap</string>
+    <string name="roadmap_instruction">Geben Sie das Feld an, für das Sie eine Roadmap generieren möchten</string>
+    <string name="roadmap_desc">Erstellen Sie eine umfassende Roadmap für jedes Feld</string>
+    <string name="roadmap_example">Webentwicklung</string>
+    <string name="roadmap_example1">Datenwissenschaft</string>
+    <string name="roadmap_example2">Blockchain-Entwicklung</string>
+    <string name="outline">Gliederung</string>
+    <string name="outline_instruction">Geben Sie das Thema, die Art und den Zweck der Gliederung an</string>
+    <string name="outline_desc">Erstellen Sie Gliederungen für verschiedene Themen und Fachgebiete</string>
+    <string name="outline_example">Thema: Klimawandel. Art: Forschungsarbeit. Zweck: Die Leser über die Ursachen informieren und überzeugen</string>
+    <string name="outline_example1">Thema: Harry Potter. Art: Buchrezension. Zweck: Die Stärken und Schwächen des Buches bewerten und kritisieren.</string>
+    <string name="outline_example2">Thema: Selbstpflege. Art: Blogbeitrag. Zweck: Die Leser über die Vorteile und Tipps zur Selbstpflege informieren und inspirieren.</string>
+
+
+
+    <string name="salespitch">Verkaufsargument</string>
+    <string name="sales_instruction">Geben Sie den Namen, die Kategorie und den Hauptschmerzpunkt sowie die Lösung des Produkts oder der Dienstleistung an.</string>
+    <string name="sales_desc">Generieren Sie überzeugende, ansprechende und effektive Verkaufsargumente.</string>
+    <string name="sales_example">Name: Dropbox. Kategorie: Cloud-Speicherdienst. Schmerzpunkt: Verlust oder Beschädigung Ihrer Dateien und Dokumente. Lösung: Speichern und sicheres Abrufen Ihrer Dateien und Dokumente.</string>
+    <string name="sales_example1">Name: Peloton. Kategorie: Fitnessgeräte und App. Schmerzpunkt: Keine Zeit oder Motivation zum Sport. Lösung: Training zu Hause mit einem intelligenten Fahrrad und einem Live-Instruktor.</string>
+    <string name="subjectline">E-Mail-Betreff</string>
+    <string name="subjectline_instruction">Geben Sie den Zweck, die Zielgruppe und die Hauptnachricht der E-Mail an.</string>
+    <string name="subjectline_desc">Generieren Sie eingängige, relevante und effektive E-Mail-Betreffzeilen.</string>
+    <string name="subjectline_example">Zweck: Dank an die Menschen für ihren Einkauf. Zielgruppe: Online-Shopper. Nachricht: Ihre Bestellung wurde versandt und hier wartet eine Überraschung auf Sie.</string>
+    <string name="subjectline_example1">Zweck: Nachverfolgung bei einem Interessenten. Zielgruppe: Potenzielle Kunden. Nachricht: Ich habe großartige Neuigkeiten für Sie.</string>
+    <string name="resume_summary">Lebenslauf-Zusammenfassung</string>
+    <string name="resume_summary_instruction">Geben Sie die Berufsbezeichnung, die Branche und die wichtigsten Qualifikationen und Fähigkeiten des Lebenslaufs an</string>
+    <string name="resume_summary_desc">Generieren Sie prägnante, professionelle und wirkungsvolle Lebenslauf-Zusammenfassungen</string>
+    <string name="resume_summary_example">Berufsbezeichnung: Lehrer. Branche: Bildung. Qualifikationen und Fähigkeiten: Master-Abschluss in Erziehung, 4 Jahre Erfahrung im Unterrichten von Mathematik und Naturwissenschaften, Lizenz für K-12-Bildung.</string>
+    <string name="resume_summary_example1">Berufsbezeichnung: Projektmanager. Branche: Bauwesen. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Bauingenieurwesen, 5 Jahre Erfahrung in der Leitung großer Projekte, Zertifizierung in PMP und Agile.</string>
+    <string name="bname">Firmenname</string>
+    <string name="bname_instruction">Geben Sie die Nische, den Markt und das Hauptkeyword des Unternehmens an</string>
+    <string name="bname_desc">Generieren Sie eingängige, leicht zu merkende und einzigartige Firmennamen</string>
+    <string name="bname_example">Nische: Online-Dating. Markt: Millennials. Keyword: Liebe.</string>
+    <string name="bname_example1">Nische: Tierpflege. Markt: Urban. Keyword: Pfoten</string>
+    <string name="bslogan">Firmenslogan</string>
+    <string name="bslogan_instruction">Geben Sie den Namen, die Kategorie und den Hauptnutzen oder Wert des Unternehmens oder der Marke an</string>
+    <string name="bslogan_desc">Generieren Sie klare, prägnante und eingängige Slogans</string>
+    <string name="bslogan_example">Name: Nike. Kategorie: Sport und Bekleidung. Nutzen/Wert: Leistung und Inspiration.</string>
+    <string name="bslogan_example1">Name: Mastercard. Kategorie: Finanzen und Technologie. Nutzen/Wert: Bequemlichkeit und Sicherheit.</string>
+    <string name="bpropsals">Geschäftsvorschläge</string>
+    <string name="bpropsals_instruction">Geben Sie den Namen, die Kategorie und das Hauptziel und den Umfang des Projekts oder Deals an</string>
+    <string name="bpropsals_desc">Generieren Sie professionelle, überzeugende und umfassende Geschäftsvorschläge</string>
+    <string name="bpropsals_example">Name: John Smith. Titel: CEO von ABC Inc. Kontakt: john@abc.com, +1 234 567 8901, www.abc.com.</string>
+    <string name="bpropsals_example1">Name: Jane Doe. Titel: Freiberufliche Grafikdesignerin. Kontakt: jane@gmail.com, +1 987 654 3210, www.jane.com.</string>
+    <string name="coverletter">Bewerbungsschreiben</string>
+    <string name="coverletter_instruction">Geben Sie die Berufsbezeichnung, die Branche und die wichtigsten Qualifikationen und Fähigkeiten des Bewerbungsschreibens an</string>
+    <string name="coverletter_desc">Generieren Sie professionelle, maßgeschneiderte und überzeugende Bewerbungsschreiben</string>
+    <string name="coverletter_example">Berufsbezeichnung: Buchhalter. Branche: Finanzen. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Buchhaltung, 2 Jahre Erfahrung in der Vorbereitung und Prüfung von Finanzberichten, Zertifizierung in CPA und CMA.</string>
+    <string name="coverletter_example1">Berufsbezeichnung: Softwareingenieur. Branche: Technologie. Qualifikationen und Fähigkeiten: Master-Abschluss in Informatik</string>
+    <string name="ccoach">Berufsberater</string>
+    <string name="ccoach_instruction">Geben Sie die aktuelle Situation und das angestrebte Ergebnis der Person an, die berufliche Beratung sucht.</string>
+    <string name="ccoach_desc">Erhalten Sie gut strukturierte Berufsratschläge</string>
+    <string name="ccoach_example">Aktuelle Situation: Beschäftigt, aber unzufrieden mit dem aktuellen Job. Gewünschtes Ergebnis: Den Karriereweg ändern und neue Möglichkeiten erkunden.</string>
+    <string name="ccoach_example1">Aktuelle Situation: Arbeitslos und auf der Suche nach einem neuen Job. Gewünschtes Ergebnis: Einen Job finden, der ihren Fähigkeiten und Interessen entspricht.</string>
+
+
+
+
+
+    <string name="cquiz">Berufsquiz</string>
+    <string name="cquiz_instruction">Geben Sie den Namen, die Kategorie und das Hauptziel sowie den Umfang des Projekts oder Angebots an.</string>
+    <string name="cquiz_desc">Erstellen Sie professionelle, überzeugende und umfassende Berufsvorschläge</string>
+    <string name="cquiz_example">Name: Welchen Beruf sollten Sie tatsächlich haben? Zweck: Menschen dabei helfen, ihre ideale Karriere zu finden. Aspekte: Persönlichkeit, Fähigkeiten.</string>
+    <string name="cquiz_example1">Name: Wie gut kennen Sie Ihre Berufsoptionen? Zweck: Das Wissen der Menschen über verschiedene Berufsmöglichkeiten testen. Aspekte: Berufsfakten, Statistiken</string>
+
+    <string name="nutrition">Ernährungsberater</string>
+    <string name="nutrition_instruction">Geben Sie das Alter, das Gewicht, die Größe, das Ziel und gegebenenfalls besondere Anforderungen an</string>
+    <string name="nutrition_desc">Erstellen Sie personalisierte, ausgewogene und gesunde Ernährungspläne</string>
+    <string name="nutrition_example">Alter: 25. Gewicht: 60 kg. Größe: 165 cm. Ziel: In 2 Monaten 5 kg abnehmen. Besondere Anforderungen: Vegetarier, laktoseintolerant.</string>
+    <string name="nutrition_example1">Alter: 35. Gewicht: 80 kg. Größe: 180 cm. Ziel: Muskulatur und Stärke aufbauen. Besondere Anforderungen: Keine.</string>
+
+    <string name="fitness">Fitness-Trainer</string>
+    <string name="fitness_instruction">Geben Sie das Alter, das Gewicht, die Größe, das Ziel und gegebenenfalls besondere Anforderungen an</string>
+    <string name="fitness_desc">Erstellen Sie personalisierte, ausgewogene und gesunde Fitnesspläne</string>
+    <string name="fitness_example">Alter: 25. Gewicht: 60 kg. Größe: 165 cm. Ziel: In 2 Monaten 5 kg abnehmen. Besondere Anforderungen: Keine.</string>
+    <string name="fitness_example1">Alter: 35. Gewicht: 80 kg. Größe: 180 cm. Ziel: Muskulatur und Stärke aufbauen. Besondere Anforderungen: Hat ein Home-Gym mit Hanteln.</string>
+
+    <string name="meditaion">Meditationslehrer</string>
+    <string name="meditaion_instruction">Geben Sie das Alter und das Ziel an</string>
+    <string name="meditaion_desc">Personalisieren Sie Ihr Meditationscoaching</string>
+    <string name="meditaion_example">Alter: 20. Ziel: Stress und Angst abbauen. Vorliebe: Geführte Meditation</string>
+    <string name="meditaion_example1">Alter: 30. Ziel: Fokus und Produktivität steigern. Vorliebe: Achtsamkeitsmeditation</string>
+
+    <string name="yoga">Yoga-Lehrer</string>
+    <string name="yoga_instruction">Geben Sie das Alter, das Ziel und das Level an</string>
+    <string name="yoga_desc">Erstellen Sie personalisierte, ausgewogene und gesunde Yoga-Pläne</string>
+    <string name="yoga_example">Alter: 25. Ziel: Flexibilität und Gleichgewicht erhöhen. Level: Anfänger.</string>
+    <string name="yoga_example1">Alter: 45. Ziel: Entspannung und Beruhigung des Geistes. Level: Fortgeschritten.</string>
+
+    <string name="paradoy">Berühmtheitenparodie</string>
+    <string name="paradoy_instruction">Geben Sie den Namen und das Thema oder den Stil der Berühmtheitenparodie an</string>
+    <string name="paradoy_desc">Interagieren Sie mit witzigen, cleveren und cleveren Parodien</string>
+    <string name="parody_example">Name: Elon Musk. Thema: Besiedlung von Mars.</string>
+    <string name="parody_example1">Name: Taylor Swift. Thema: Songwriting und Trennungen.</string>
+    <string name="parody_example2">Name: Billie Eilish. Thema: Übergroße Outfits und dunkle Texte.</string>
+
+    <string name="code_poem">Code-Gedicht</string>
+    <string name="code_poem_instruction">Geben Sie den Namen, die Sprache und das Hauptthema oder die Emotion des Code-Gedichts an.</string>
+    <string name="code_poem_desc">Generieren Sie schöne, kreative und bedeutungsvolle Code-Gedichte</string>
+    <string name="code_poem_example">Name: Hello World. Sprache: Python. Thema: Freude und Neugier.</string>
+    <string name="code_poem_example1">Name: Fibonacci. Sprache: Java. Thema: Mathematik und Schönheit.</string>
+
+    <string name="riddle">Rätselverfasser</string>
+    <string name="riddle_instruction">Geben Sie den Namen, das Thema und die Antwort des Rätsels an</string>
+    <string name="riddle_desc">Generieren Sie clevere, knifflige und amüsante Rätsel</string>
+    <string name="riddle_example">Name: Was hat ein Gesicht und zwei Hände, aber keine Arme oder Beine? Thema: Zeit. Antwort: Eine Uhr.</string>
+    <string name="riddle_example1">Name: Was ist so zerbrechlich, dass das Aussprechen seines Namens es zerbricht? Thema: Stille. Antwort: Stille.</string>
+
+    <string name="haiku">Haiku-Generator</string>
+    <string name="haiku_instruction">Geben Sie den Namen, das Thema und die Emotion des Haikus an</string>
+    <string name="haiku_desc">Generieren Sie schöne, einfache und bedeutungsvolle Haikus</string>
+    <string name="haiku_example">Name: Winter Wonderland. Thema: Winter. Emotion: Freude.</string>
+    <string name="haiku_example1">Name: Kirschblüte. Thema: Frühling. Emotion: Liebe.</string>
+
+    <string name="tongue_twister">Zungenbrecher</string>
+    <string name="tongue_twister_instruction">Geben Sie den Namen, das Thema und den Hauptbuchstaben des Zungenbrechers an</string>
+    <string name="tongue_twister_desc">Generieren Sie amüsante, eingängige und schwierige Zungenbrecher</string>
+    <string name="tongue_twister_example">Name: Sie verkauft Muscheln. Thema: Strand. Buchstabe: S.</string>
+    <string name="tongue_twister_example1">Name: Peter Piper. Thema: Paprika. Buchstabe: P.</string>
+
+
+    <string name="emoji_translate">Emoji Übersetzer</string>
+    <string name="emoji_translate_instruction">Geben Sie die Richtung und den Text oder die Emojis für die Übersetzung an</string>
+    <string name="emoji_translate_desc">Verschiedene Texte und Nachrichten in Emojis und umgekehrt übersetzen</string>
+    <string name="emoji_translate_example">Richtung: Text in Emojis. Text: Lass uns zum Strand gehen</string>
+    <string name="emoji_translate_example2">Richtung: Text in Emojis. Text: Fühle mich glücklich und aufgeregt</string>
+    <string name="emoji_translate_example1">Richtung: Emojis in Text. Emoji: 😍🍕.</string>
+    <string name="emoji_translate_example3">Richtung: Emojis in Text. Emoji: 🏰👸🤴🌹👑.</string>
+
+    <string name="movie_mood">Film nach Stimmung</string>
+    <string name="movie_mood_instruction">Geben Sie die Stimmung und die Vorlieben des Benutzers an</string>
+    <string name="movie_mood_desc">Generieren Sie Filmempfehlungen</string>
+    <string name="movie_mood_example">Stimmung: Glücklich. Vorliebe: Komödie.</string>
+    <string name="movie_mood_example1">Stimmung: Ängstlich. Vorliebe: Horror.</string>
+
+    <string name="trivia">Trivia-Spiel</string>
+    <string name="trivia_instruction">Geben Sie den Namen, das Thema und den Schwierigkeitsgrad an.</string>
+    <string name="trivia_desc">Generieren Sie unterhaltsame, interessante und herausfordernde Trivia-Quizze</string>
+    <string name="trivia_example">Name: Geschichtsquiz. Thema: Weltgeschichte, Kriege, Führer, etc. Schwierigkeitsgrad: Mittel.</string>
+    <string name="trivia_example1">Name: Wissenschaftsquiz. Thema: Physik, Chemie, Biologie, etc. Schwierigkeitsgrad: Schwer.</string>
+
+    <string name="jingle">Jingle-Schreiber</string>
+    <string name="jingle_instruction">Geben Sie den Namen, das Produkt und den Hauptnutzen oder Slogan des Jingles an</string>
+    <string name="jingle_desc">Generieren Sie eingängige, einprägsame und überzeugende Jingles</string>
+    <string name="jingle_example">Name: Kit Kat. Produkt: Schokoriegel. Nutzen/Slogan: Pause machen, einen Kit Kat nehmen.</string>
+    <string name="jingle_example1">Name: L\'Oréal. Produkt: Schönheits- und Kosmetikprodukte. Nutzen/Slogan: Weil du es wert bist.</string>
+
+    <string name="midlibs">Mad Libs Generator</string>
+    <string name="midlibs_instruction">Geben Sie den Namen, das Thema und die Anzahl der Lücken des Mad Libs an.</string>
+    <string name="midlibs_desc">Generieren Sie urkomische, zufällige und absurde Mad Libs</string>
+    <string name="midlibs_example">Name: Ein Tag im Zoo. Thema: Tiere und Zoo. Anzahl der Lücken: 10.</string>
+    <string name="midlibs_example1">Name: Eine Reise zum Mond. Thema: Weltraum und Abenteuer. Anzahl der Lücken: 20.</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="second_ad_is_loading">Bitte warten, die zweite Anzeige wird geladen…</string>
+    <string name="ad_is_loading">Bitte warten, Anzeige wird geladen…</string>
+
+
+</resources>

@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "ConversAI"
+rootProject.name = "MyAiAssistant"
 include ':app'

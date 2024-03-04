@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <queries>
@@ -20,32 +21,39 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".ConversAIApp"
-        android:theme="@style/Theme.ConversAI"
-        tools:targetApi="31">
+        android:name=".MyAiAssistant"
+        android:hardwareAccelerated="true"
+        android:theme="@style/Theme.MyAiAssistant"
+        tools:targetApi="31"
+        android:manageSpaceActivity=".utils.ManageSpaceActivity">
+
         <activity
             android:name=".ui.activity.MainActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize"
+            android:windowSoftInputMode="adjustResize|adjustPan"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ConversAI">
+            android:theme="@style/Theme.MyAiAssistant">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+          android:value="ca-app-pub-9473026439231108~4461719068" />
+        <!--     my app id       android:value="ca-app-pub-9473026439231108~4461719068" />-->
+
+        <!--          Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+<!--          my app id :  ca-app-pub-9473026439231108~4461719068-->
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/app_icon" />
 
         <service
-            android:name=".common.FirebaseService"
+            android:name=".utils.FirebaseService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
