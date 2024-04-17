@@ -4,20 +4,17 @@ import android.app.Activity
 import android.content.Intent
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -49,7 +46,7 @@ import java.util.Locale
 @Composable
 fun ChatInputText(
     viewModel: ChatViewModel = hiltViewModel(),
-    inputText: MutableState<String>,
+    inputText: MutableState<String>
 ) {
 
     val focusRequester = remember { FocusRequester() }
@@ -204,12 +201,11 @@ fun ChatInputText(
                                             showDialog = true
                                             return@launch
                                         }
+
                                         if (isGenerating.not()) {
                                             val textClone = text.text
                                             if (textClone.isNotBlank()) {
-
                                                 if (viewModel.isProVersion.value.not()) {
-
                                                     if (freeMessageCount > 0) {
                                                         viewModel.decreaseFreeMessageCount()
                                                     } else {
@@ -223,7 +219,8 @@ fun ChatInputText(
                                             }
                                         }
                                     }
-                                }, modifier = Modifier
+                                },
+                                modifier = Modifier
                                     .size(55.dp)
                                     .background(color = White, shape = RoundedCornerShape(90.dp))
 //                                .align(CenterVertically)
@@ -236,13 +233,9 @@ fun ChatInputText(
                                     tint = teal_200,
                                 )
                             }
-
                         }
                     }
                 }
             }
-
-
-
         }
 

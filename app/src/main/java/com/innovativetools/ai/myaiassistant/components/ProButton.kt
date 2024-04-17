@@ -46,7 +46,7 @@ fun ProButton(onClick: () -> Unit = {}) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(top = 16.dp, start = 16.dp, end = 16.dp)
+            .padding(top = 12.dp, start = 16.dp, end = 16.dp)
             .clickable(onClick = onClick),
         elevation = 5.dp,
         backgroundColor = teal_200,

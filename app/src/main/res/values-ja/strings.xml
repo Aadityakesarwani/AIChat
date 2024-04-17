@@ -49,6 +49,12 @@
     <string name="upwork_proposal_description">勝利を収めるUpwork提案を生成します。</string>
     <string name="upwork_proposal_example1">プロフィールタイトル：経験豊富で信頼できる仮想アシスタント。カテゴリ：管理サポート。スキル：データ入力、ウェブリサーチ</string>
 
+    <string name="greeting_message">挨拶メッセージ</string>
+    <string name="greeting_desc">ユニークな挨拶メッセージを生成する</string>
+    <string name="greeting_instruction">挨拶メッセージを生成するための場合と対象者について書いてください（任意）。</string>
+    <string name="greeting_example">機会：ホーリー、対象：家族</string>
+    <string name="greeting_example1">機会：誕生日、対象：親友</string>
+    <string name="greeting_example2">新年</string>
 
 
     <string name="upwork_proposal_example2">プロフィールタイトル：専門家で認定されたデジタルマーケッター。カテゴリ：マーケティング。スキル：デジタルマーケティング、SEO</string>

@@ -116,7 +116,6 @@ fun SettingsScreen(
        modifier = Modifier
            .fillMaxSize()
            .verticalScroll(rememberScrollState())
-
     ) {
         Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
 
@@ -369,6 +368,49 @@ fun SettingsScreen(
             )
             Spacer(modifier = Modifier.width(15.dp))
         }
+
+
+//        //Get More Credits
+//        Row(
+//            modifier = Modifier
+//                .fillMaxWidth()
+//                .padding(top = 15.dp)
+//                .padding(horizontal = 30.dp)
+//                .click {
+//                    purchaseHelper.restorePurchase {
+//                        if (it) {
+//                            settingsViewModel.setProVersion(true)
+//                            showSuccessToast = true
+//                        } else {
+//                            showErrorToast = true
+//                        }
+//                    }
+//                },
+//            verticalAlignment = Alignment.CenterVertically
+//        ) {
+//            Icon(
+//                painter = painterResource(R.drawable.shines),
+//                tint = MaterialTheme.colors.surface,
+//                contentDescription = stringResource(R.string.app_name),
+//                modifier = Modifier
+//                    .size(width = 27.dp, height = 27.dp)
+//
+//            )
+//            Spacer(modifier = Modifier.width(20.dp))
+//            Text(
+//                text = stringResource(id = R.string.restore_purchase),
+//                color = MaterialTheme.colors.surface,
+//                style = TextStyle(
+//                    fontSize = 16.sp,
+//                    fontWeight = FontWeight.W600,
+//                    fontFamily = OpenSans,
+//                    lineHeight = 25.sp
+//                ),
+//                modifier = Modifier.weight(1f)
+//            )
+//            Spacer(modifier = Modifier.width(15.dp))
+//        }
+
 
 
 

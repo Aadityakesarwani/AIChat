@@ -59,7 +59,7 @@ fun UserMessageCard(message: MessageModel) {
         Text(
             text = message.question,
             color = MaterialTheme.colors.surface,
-            modifier = Modifier.padding(horizontal = 15.dp, vertical = 10.dp),
+            modifier = Modifier.padding(horizontal = 14.dp, vertical = 12.dp),
             textAlign = TextAlign.Start,
             style = Typography.body1
         )
@@ -80,22 +80,26 @@ fun BotMessageCard(
     }
 
     Column(modifier = Modifier.fillMaxWidth()) {
-        Box(
-            modifier = Modifier
-                .widthIn(min = 0.dp, max = 300.dp) // Define a suitable width for the message bubble
-                .background(
-                    semiTransparentTeal, // Choose your theme's color for the bot messages
-                    shape = RoundedCornerShape(10.dp)
+        Box(modifier = Modifier.padding(end = 23.dp)) {
+            Box(
+                modifier = Modifier
+                .widthIn(0.dp)
+//                    .fillMaxWidth()
+                    .background(
+                        semiTransparentTeal, // Choose your theme's color for the bot messages
+                        shape = RoundedCornerShape(10.dp)
+                    )
+//                    .padding(start = 12.dp, end = 20.dp, top = 10.dp, bottom = 10.dp) //
+                .padding(horizontal = 14.dp, vertical = 10.dp)
+            ) {
+                Text(
+                    text = message.answer,
+                    color = Color.White,
+                    style = MaterialTheme.typography.body1
                 )
-                .padding(horizontal = 18.dp, vertical = 12.dp)
-
-        ) {
-            Text(
-                text = message.answer,
-                color = Color.White,
-                style = MaterialTheme.typography.body1
-            )
+            }
         }
+
 
         // Row for Copy and Share buttons
         Row(

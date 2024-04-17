@@ -34,18 +34,15 @@ fun AssistantCard(
 ) {
 
     Column(
-
         horizontalAlignment = Alignment.Start,
         modifier = Modifier
             .padding(5.dp)
             .clickable{ onClick() }
             .size(width = 200.dp, height = 170.dp)
             .height(200.dp)
-            .background(shape = RoundedCornerShape(14.dp), color = MaterialTheme.colors.onSecondary)
-            .padding(14.dp)
-
+            .background(shape = RoundedCornerShape(12.dp), color = MaterialTheme.colors.onSecondary)
+            .padding(12.dp)
     ) {
-
         Image(
             painter = painterResource(image),
             contentDescription = stringResource(R.string.app_name),

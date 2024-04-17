@@ -209,6 +209,15 @@
     <string name="bio_example1">अपने लिए बायो, इंजीनियर, गेमिंग, कोडिंग, एक स्टार्टअप बनाएं</string>
     <string name="bio_example2">शेफ, खाना बनाना, संगीत, एक रेस्तरां खोलना</string>
 
+
+    <string name="greeting_message">अभिवादन संदेश</string>
+    <string name="greeting_desc">अनूठे अभिवादन संदेश उत्पन्न करें</string>
+    <string name="greeting_instruction">वह अवसर और लक्षित व्यक्ति के बारे में लिखें (वैकल्पिक) जिसके लिए आप अभिवादन संदेश उत्पन्न करना चाहते हैं।</string>
+    <string name="greeting_example">अवसर: होली, लक्ष्य: परिवार</string>
+    <string name="greeting_example1">अवसर: जन्मदिन, लक्ष्य: सबसे अच्छा दोस्त</string>
+    <string name="greeting_example2">नया साल</string>
+
+
     <string name="bio_example3">छात्र, नृत्य, चित्रकला, कलाकार बनने का ख्याल</string>
     <string name="meme_maker">मजाक</string>
     <string name="meme_desc">मजेदार और वायरल मजाक बनाएं</string>

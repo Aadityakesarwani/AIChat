@@ -231,6 +231,14 @@
     <string name="meme_example1">Relationship Humor</string>
     <string name="meme_example2">Travel Fails</string>
     <string name="meme_example3">Celebrity Gaffes</string>
+
+    <string name="greeting_message">Greeting Message</string>
+    <string name="greeting_desc">Generate warm and unique greeting messages</string>
+    <string name="greeting_instruction">Write about the occasion and target person (optional) for which you want to generate greeting message.</string>
+    <string name="greeting_example">  occasion : Holi, target: family </string>
+    <string name="greeting_example1"> occasion : Birthday, target: best friend</string>
+    <string name="greeting_example2"> New Year</string>
+
     <string name="poll_maker">Poll Maker</string>
     <string name="poll_desc"> Create funny,informative,relevant polls</string>
     <string name="poll_instruction">Provide topic for which poll you want to generate</string>
@@ -256,8 +264,8 @@
     <string name="essay_writing">Essay Writing</string>
     <string name="essay_instruction">Provide the topic, the type, and the length of the essay</string>
     <string name="essay_desc">Generate essay on any topic</string>
-    <string name="essay_example">Topic: The benefits of meditation. Type: Argumentative. Length: 500 words.</string>
-    <string name="essay_example1">The impact of social media on mental health. Type: Analytical. Length: 250 words</string>
+    <string name="essay_example">Topic: The benefits of meditation.Type: Argumentative.Length: 500 words.</string>
+    <string name="essay_example1">Topic: The impact of social media on mental health. Type: Analytical. Length: 250 words</string>
     <string name="essay_example2">Topic: The most memorable moment of your life. Type: Narrative. Length: 750 words</string>
 
 

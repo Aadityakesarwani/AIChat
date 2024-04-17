@@ -46,6 +46,15 @@
     <string name="fiver_gig_description">आकर्षक फायव्हर विवरण तयार करा.</string>
     <string name="fiver_description_example2">गिग शीर्षक: माझं तुमच्यासाठी आकर्षक आणि SEO मैत्री ब्लॉग पोस्ट लिहिणार. श्रेणी: लेखन. वैशिष्ट्ये / लाभ: उच्च गुणवत्ता, मौल्यवर आणि संशोधन केलेलं सामग्री</string>
 
+
+    <string name="greeting_message">अभिवादन संदेश</string>
+    <string name="greeting_desc">अनूठे अभिवादन संदेश तयार करा</string>
+    <string name="greeting_instruction">आपण अभिवादन संदेश तयार करू इच्छित असलेल्या दिवसाच्या आणि टारगेट व्यक्तीच्या बारेत लिहा (पर्यायी)</string>
+    <string name="greeting_example">दिवस: होळी, टारगेट: कुटुंब</string>
+    <string name="greeting_example1">दिवस: वाढदिवस, टारगेट: सर्वोत्तम मित्र</string>
+    <string name="greeting_example2">नवीन वर्ष</string>
+
+
     <string name="fiver_description_example1">‘फ्रीलॅन्स डिजिटल मार्केटिंग विशेषज्ञ’ शीर्षकासाठी पेशेवर फायव्हर विवरण तयार करा.</string>
     <string name="fiver_instruction">इनपुटमध्ये शीर्षक, श्रेणी आणि वैशिष्ट्ये समाहित करा</string>
     <string name="upwork_proposal">अपवर्क प्रस्ताव</string>

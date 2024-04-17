@@ -66,7 +66,6 @@ import java.util.Locale
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-
     private val viewModel: MainActivityViewModel by viewModels()
     val CHANNEL_ID = "MyAiAssistant"
     val CHANNEL_NAME = "MyAiAssistant"
@@ -152,20 +151,24 @@ class MainActivity : ComponentActivity() {
                                 if (apiKey != null) {
                                     Constants.API_KEY = apiKey
                                 }
-                                if (rewardedAdUnitId != null) {
-                                  Constants.REWARDED_AD_UNIT_ID = rewardedAdUnitId
+
+                                  Constants.REWARDED_AD_UNIT_ID = rewardedAdUnitId!!
                                   Constants.SECOND_REWARDED_AD_UNIT_ID = secondRewardAdUnitId!!
+                                  Constants.INTERTITIAL_ADUNIT = intertitialAdUnitId!!
 //                                Constants.REWARDED_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917"
-                                    loadRewarded(this@MainActivity)
+                                  loadInterstitial(this@MainActivity)
+
+                                   loadRewarded(this@MainActivity)
                                     loadTwoRewardedAds(this@MainActivity)
-                                }
+
                                 if(isIntEnabled == true){
                                     Constants.isInterEnabled = true
-                                    if (intertitialAdUnitId != null) {
-                                        Constants.INTERTITIAL_ADUNIT = intertitialAdUnitId //"ca-app-pub-3940256099942544/1033173712"
-                                        loadInterstitial(this@MainActivity)
-                                    }
                                 }
+
+//                                if (intertitialAdUnitId != null) {
+//                                     //"ca-app-pub-3940256099942544/1033173712"
+//                                }
+
                             }
                         } else {
                             Log.d("nullvalue", "value is null")
@@ -184,10 +187,9 @@ class MainActivity : ComponentActivity() {
         askNotificationPermission()
         createNotificationChannel()
 
-
         AppRating.Builder(this)
             .useGoogleInAppReview()
-            .setMinimumLaunchTimes(5)
+            .setMinimumLaunchTimes(4)
             .setMinimumDays(2)
             .setMinimumLaunchTimesToShowAgain(5)
             .setMinimumDaysToShowAgain(7)

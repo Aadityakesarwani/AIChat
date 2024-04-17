@@ -155,6 +155,15 @@
     <string name="search_conversation">Søk...</string>
 
 
+
+    <string name="greeting_message">Hilsenmelding</string>
+    <string name="greeting_desc">Generer unike hilsenmeldinger</string>
+    <string name="greeting_instruction">Skriv om anledningen og målpersonen (valgfritt) for hvilken du vil generere en hilsenmelding.</string>
+    <string name="greeting_example">Anledning: Holi, mål: Familie</string>
+    <string name="greeting_example1">Anledning: Bursdag, mål: Beste venn</string>
+    <string name="greeting_example2">Nyttår</string>
+
+
     <string name="upgrade_to_pro">Oppgrader</string>
     <string name="language">Språk</string>
     <string name="dark_theme">Mørk modus</string>

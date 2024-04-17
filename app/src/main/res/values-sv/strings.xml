@@ -32,6 +32,13 @@
     <string name="business_plan_description">Skapa en omfattande affärsplan.</string>
     <string name="resume_builder">CV-skapare</string>
 
+    <string name="greeting_message">Hälsningsmeddelande</string>
+    <string name="greeting_desc">Generera unika hälsningsmeddelanden</string>
+    <string name="greeting_instruction">Skriv om tillfället och målpersonen (valfritt) för vilken du vill generera ett hälsningsmeddelande.</string>
+    <string name="greeting_example">Tillfälle: Holi, mål: Familj</string>
+    <string name="greeting_example1">Tillfälle: Födelsedag, mål: Bästa vän</string>
+    <string name="greeting_example2">Nytt år</string>
+
 
     <string name="resume_builder_description">Skapa enastående CV för din jobbansökan.</string>
     <string name="resume_builder_example1">Jobbtitel: Blockchain-utvecklare. Bransch: Teknologi. Kvalifikationer och färdigheter: Kandidatexamen i datavetenskap, 1 års erfarenhet av att utveckla blockchain-applikationer.</string>

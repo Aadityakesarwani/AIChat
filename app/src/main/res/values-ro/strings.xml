@@ -49,6 +49,12 @@
     <string name="upwork_proposal">Propunere Upwork</string>
     <string name="upwork_proposal_description">Generează o propunere câștigătoare pe Upwork.</string>
 
+    <string name="greeting_message">Mesaj de salut</string>
+    <string name="greeting_desc">Generați mesaje de salut unice</string>
+    <string name="greeting_instruction">Scrieți despre ocazie și persoana țintă (opțional) pentru care doriți să generați un mesaj de salut.</string>
+    <string name="greeting_example">Ocazie: Holi, țintă: familie</string>
+    <string name="greeting_example1">Ocazie: Ziua de naștere, țintă: cel mai bun prieten</string>
+    <string name="greeting_example2">Anul Nou</string>
 
 
     <string name="song_instruction">Scrie despre ce tip de versuri de cântec dorești să generezi</string>

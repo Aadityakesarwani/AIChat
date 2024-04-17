@@ -264,7 +264,16 @@
     <string name="paraphrase_example1">Testo: \'onesta è la migliore politica. Scopo: persuasivo.</string>
     <string name="paraphrase_example2">Testo: Una mela al giorno toglie il medico di torno. Scopo: conciso.</string>
 
-   <string name="quiz">Quiz Maker</string>
+
+    <string name="greeting_message">Messaggio di saluto</string>
+    <string name="greeting_desc">Genera messaggi di saluto unici</string>
+    <string name="greeting_instruction">Scrivi sull\'occasione e sulla persona destinataria (opzionale) per la quale desideri generare un messaggio di saluto.</string>
+    <string name="greeting_example">Occasione: Holi, destinatario: famiglia</string>
+    <string name="greeting_example1">Occasione: Compleanno, destinatario: migliore amico</string>
+    <string name="greeting_example2">Capodanno</string>
+
+
+    <string name="quiz">Quiz Maker</string>
     <string name="quiz_instruction">Fornisci il testo e lo scopo della parafrasi</string>
     <string name="quiz_desc">Crea quiz su qualsiasi testo</string>
     <string name="quiz_example">Argomento: Scienza. Tipo: Risposta breve. Difficoltà: Media.</string>

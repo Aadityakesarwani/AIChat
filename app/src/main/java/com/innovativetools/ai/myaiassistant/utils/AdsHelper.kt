@@ -13,8 +13,6 @@ import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import com.innovativetools.ai.myaiassistant.R
-
 
 var mInterstitialAd: InterstitialAd? = null
 var rewardedAd: RewardedAd? = null
@@ -85,7 +83,6 @@ fun showTwoRewardedAds(context: Context, showDialog: MutableState<Boolean>, onTw
 //            override fun onAdFailedToShowFullScreenContent(e: AdError) {
 //                rewardedAd = null
 //            }
-//
 //            override fun onAdDismissedFullScreenContent() {
 //                rewardedAd = null
 //                // Show the second ad
@@ -116,6 +113,8 @@ fun loadRewarded(context: Context) {
             }
         })
 }
+
+
 fun showRewarded(context: Context, onRewarded: () -> Unit) {
     val activity = context.findActivity()
 
@@ -136,6 +135,8 @@ fun showRewarded(context: Context, onRewarded: () -> Unit) {
         }
     }
 }
+
+
 fun loadInterstitial(context: Context){
     InterstitialAd.load(
         context,
@@ -144,7 +145,7 @@ fun loadInterstitial(context: Context){
         object : InterstitialAdLoadCallback() {
             override fun onAdFailedToLoad(adError: LoadAdError) {
                 mInterstitialAd = null
-//                Toast.makeText(context, R.string.ad_is_loading, Toast.LENGTH_SHORT).show()
+                Log.d("AdDebug", "Ad failed to load: ${adError.message}")
             }
             override fun onAdLoaded(interstitialAd: InterstitialAd) {
                 mInterstitialAd = interstitialAd
@@ -152,21 +153,29 @@ fun loadInterstitial(context: Context){
         }
     )
 }
+
 fun showInterstitial(context: Context, onAdDismissed: () -> Unit, onAdFailed: () -> Unit) {
     val activity = context.findActivity()
     if (mInterstitialAd != null && activity != null) {
+        Log.d("AdDebug", "Interstitial ad is not null and activity is not null")
         mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
             override fun onAdFailedToShowFullScreenContent(e: AdError) {
+                Log.d("AdDebug", "Ad failed to show full screen content: ${e.message}")
                 mInterstitialAd = null
                 onAdFailed()
             }
             override fun onAdDismissedFullScreenContent() {
+                Log.d("AdDebug", "Ad dismissed full screen content")
                 mInterstitialAd = null
                 loadInterstitial(context)
                 onAdDismissed()
             }
         }
+
         mInterstitialAd?.show(activity)
+    } else {
+        Log.d("AdDebug", "Interstitial ad is null or activity is null")
+        onAdFailed()
     }
 }
 fun removeInterstitial() {

@@ -30,6 +30,13 @@
     <string name="domainname_serach">بحث النطاق</string>
     <string name="domainname_serach_description">احصل على أسماء نطاقات فريدة ودية لمحركات البحث.</string>
 
+    <string name="greeting_message">رسالة تحية</string>
+    <string name="greeting_desc">توليد رسائل تحية فريدة</string>
+    <string name="greeting_instruction">اكتب عن المناسبة والشخص المستهدف (اختياري) الذي ترغب في توليد رسالة تحية له.</string>
+    <string name="greeting_example">المناسبة: عيد الهولي، الهدف: العائلة</string>
+    <string name="greeting_example1">المناسبة: عيد ميلاد، الهدف: أفضل صديق</string>
+    <string name="greeting_example2">رأس السنة الجديدة</string>
+
     <string name="business_plan">خطة العمل</string>
     <string name="business_plan_description">إنشاء خطة عمل شاملة.</string>
     <string name="resume_builder">منشئ السيرة الذاتية</string>

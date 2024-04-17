@@ -3,7 +3,6 @@ package com.innovativetools.ai.myaiassistant.ui.myassistants
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.Configuration
-import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -12,8 +11,6 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -26,18 +23,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.innovativetools.ai.myaiassistant.utils.Constants
 import com.innovativetools.ai.myaiassistant.components.AssistantCard
 import com.innovativetools.ai.myaiassistant.data.model.AiAssistantModel
 import com.innovativetools.ai.myaiassistant.data.model.AiAssistantsModel
 import com.innovativetools.ai.myaiassistant.R
 import com.innovativetools.ai.myaiassistant.components.MainAppBar
-import com.innovativetools.ai.myaiassistant.components.NoInternetDialog
 import com.innovativetools.ai.myaiassistant.components.TabItem
-import com.innovativetools.ai.myaiassistant.ui.activity.isOnline
 import com.innovativetools.ai.myaiassistant.utils.showInterstitial
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.Locale
@@ -167,6 +160,21 @@ fun MyAssistantsScreen(
                     )
                 ),
 
+
+                AiAssistantModel(
+                    image = R.drawable.invitation,
+                    name = stringResource(R.string.greeting_message),
+                    description = stringResource(R.string.greeting_desc),
+                    role = Constants.SocialMedia.GREETING_GENERATOR + "- output should be in language ${languageNames[currentLanguageCode]}",
+                    instruction = stringResource(id = R.string.greeting_instruction),
+                    exampleList1 = listOf(
+                        stringResource(R.string.greeting_example),
+                        stringResource(R.string.greeting_example1),
+                        stringResource(R.string.greeting_example2),
+                    )
+                ),
+
+
                 AiAssistantModel(
                     image = R.drawable.script,
                     name = stringResource(R.string.bio_maker),
@@ -179,6 +187,7 @@ fun MyAssistantsScreen(
                     )
                 ),
 
+
                 AiAssistantModel(
                     image = R.drawable.poll,
                     name = stringResource(R.string.poll_maker),
@@ -190,6 +199,7 @@ fun MyAssistantsScreen(
                         stringResource(R.string.poll_example1),
                     ),
                 ),
+
 
                 AiAssistantModel(
                     image = R.drawable.quote,
@@ -218,30 +228,6 @@ fun MyAssistantsScreen(
                     ),
                 ),
 
-                AiAssistantModel(
-                    image = R.drawable.ic_youtube,
-                    name = stringResource(R.string.youtube),
-                    description = stringResource(R.string.youtube_description),
-                    role = Constants.SocialMedia.YOUTUBE_SCRIPT + "- output should be in language ${languageNames[currentLanguageCode]}",
-                    instruction = stringResource(id = R.string.youtube_script_instruction),
-                    exampleList1 = listOf(
-                        stringResource(R.string.youtube_example1),
-                        stringResource(R.string.youtube_example2),
-                    )
-                ),
-
-                AiAssistantModel(
-                    image = R.drawable.ic_youtube,
-                    name = stringResource(R.string.youtube_idea),
-                    description = stringResource(R.string.youtube_idea_description),
-                    role = Constants.SocialMedia.YOUTUBE_CONTENT_IDEA + "- output should be in language ${languageNames[currentLanguageCode]}",
-                    instruction = stringResource(id = R.string.youtube_idea_instruction),
-                    exampleList1 = listOf(
-                        stringResource(R.string.youtube_idea_example),
-                        stringResource(R.string.youtube_idea_example1),
-                        stringResource(R.string.youtube_idea_example2),
-                    )
-                ),
 
                 AiAssistantModel(
                     image = R.drawable.script,
@@ -423,6 +409,34 @@ fun MyAssistantsScreen(
                     ),
 
                     ),
+
+
+
+                AiAssistantModel(
+                    image = R.drawable.ic_youtube,
+                    name = stringResource(R.string.youtube),
+                    description = stringResource(R.string.youtube_description),
+                    role = Constants.Career.YOUTUBE_SCRIPT + "- output should be in language ${languageNames[currentLanguageCode]}",
+                    instruction = stringResource(id = R.string.youtube_script_instruction),
+                    exampleList1 = listOf(
+                        stringResource(R.string.youtube_example1),
+                        stringResource(R.string.youtube_example2),
+                    )
+                ),
+
+                AiAssistantModel(
+                    image = R.drawable.ic_youtube,
+                    name = stringResource(R.string.youtube_idea),
+                    description = stringResource(R.string.youtube_idea_description),
+                    role = Constants.Career.YOUTUBE_CONTENT_IDEA + "- output should be in language ${languageNames[currentLanguageCode]}",
+                    instruction = stringResource(id = R.string.youtube_idea_instruction),
+                    exampleList1 = listOf(
+                        stringResource(R.string.youtube_idea_example),
+                        stringResource(R.string.youtube_idea_example1),
+                        stringResource(R.string.youtube_idea_example2),
+                    )
+                ),
+
 
                 AiAssistantModel(
                     image = R.drawable.script,
@@ -905,7 +919,7 @@ fun MyAssistantsScreen(
                 LazyRow(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = 2.dp, start = 10.dp)
+                        .padding(start = 5.dp)
                 )
                 {
                     item {
@@ -938,7 +952,7 @@ fun MyAssistantsScreen(
                         columns = GridCells.Fixed(2),
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 10.dp, end = 10.dp, top = 12.dp)
+                            .padding(start = 5.dp, end = 5.dp, top = 10.dp)
                     ) {
                         items(viewModel.verticalShowList)
                         {
@@ -997,7 +1011,7 @@ fun MyAssistantsScreen(
                         columns = GridCells.Fixed(2),
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 10.dp, end = 10.dp, top = 12.dp)
+                            .padding(start = 5.dp, end = 5.dp, top = 10.dp)
                     ) {
                         assistantList.forEach { aiAssistantList ->
                             aiAssistantList.assistant.forEach { assistant ->
@@ -1026,14 +1040,13 @@ fun MyAssistantsScreen(
                                                                 )
                                                             }
                                                         },
-
                                                         onAdFailed = {
                                                             navigateToChat(
                                                                 assistant.name,
                                                                 assistant.role,
                                                                 assistant.instruction,
                                                                 assistant.exampleList1
-                                                            )
+                                                             )
                                                         }
                                                     )
                                                 }else{

@@ -200,7 +200,6 @@ fun ChatScreen(
                                 .height(35.dp)
                                 .padding(end = 5.dp, start = 5.dp)
                         )
-
                     }
                 }
             }
@@ -273,9 +272,11 @@ fun ChatScreen(
                     ),
                     content = {
                         ShowDialog(context = context, viewModel = viewModel, navigateToUpgrade)
-                    })
+                    }
+                )
 
             }
+
         }
 
         ChatInputText(
@@ -303,8 +304,6 @@ fun ShowDialog(
             }
         }
     }
-
-
     if (openDialog.value) {
         Dialog(
             onDismissRequest = {},
@@ -327,7 +326,9 @@ fun ShowDialog(
                             .padding(top = 16.dp)
                     ) {
                         IconButton(
-                            onClick = { openDialog.value = false },
+                            onClick = {
+                                openDialog.value = false
+                                      },
                             modifier = Modifier
                                 .align(Alignment.TopEnd)
                                 .background(MaterialTheme.colors.surface, shape = CircleShape)

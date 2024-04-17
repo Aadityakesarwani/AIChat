@@ -34,6 +34,14 @@
     <string name="resume_builder">Lebenslauf-Generator</string>
 
 
+    <string name="greeting_message">Begrüßungsnachricht</string>
+    <string name="greeting_desc">Erzeugen Sie einzigartige Begrüßungsnachrichten</string>
+    <string name="greeting_instruction">Schreiben Sie über den Anlass und die Zielperson (optional), für die Sie eine Begrüßungsnachricht generieren möchten.</string>
+    <string name="greeting_example">Anlass: Holi, Ziel: Familie</string>
+    <string name="greeting_example1">Anlass: Geburtstag, Ziel: Bester Freund</string>
+    <string name="greeting_example2">Neujahr</string>
+
+
     <string name="resume_builder_description">Erstellen Sie einen herausragenden Lebenslauf für Ihren Job.</string>
     <string name="resume_builder_example1">Jobtitel: Blockchain-Entwickler. Branche: Technologie. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Informatik, 1 Jahr Erfahrung in der Entwicklung von Blockchain-Anwendungen.</string>
     <string name="resume_builder_example2">Jobtitel: Softwareentwickler. Branche: Technologie. Qualifikationen und Fähigkeiten: Bachelor-Abschluss in Informatik, 3 Jahre Erfahrung in der Entwicklung von Web- und mobilen Anwendungen, fundierte Kenntnisse in Java, Python und SQL.</string>

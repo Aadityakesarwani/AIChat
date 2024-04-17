@@ -10,6 +10,8 @@ plugins {
 //  id 'com.google.firebase.crashlytics'
 }
 
+
+
 android {
     namespace 'com.innovativetools.ai.myaiassistant'
     compileSdk 34
@@ -18,8 +20,8 @@ android {
         applicationId "com.innovativetools.ai.myaiassistant"
         minSdk 24
         targetSdk 33
-        versionCode 8
-        versionName "2.2.4"
+        versionCode 10
+        versionName "2.2.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
