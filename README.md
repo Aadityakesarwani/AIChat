@@ -69,5 +69,10 @@ Once installed, you can use the AI Assistant App to:
 ## Screenshots
 
 ![S1](https://github.com/Aadityakesarwani/AIChat/tree/master/app/src/main/res/drawable/1706954803921.jpg)
+
 ![S2](https://github.com/Aadityakesarwani/AIChat/tree/master/app/src/main/res/drawable/1706954803927.jpg)
+
+![S3](https://github.com/Aadityakesarwani/AIChat/tree/master/app/src/main/res/drawable/1717933659312.jpg)
+
+
 
