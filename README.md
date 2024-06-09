@@ -66,3 +66,7 @@ Once installed, you can use the AI Assistant App to:
     ```
 5. **Create a new Pull Request**
 
+## Screenshots
+
+![S1](assets/images/home-page.png)
+
