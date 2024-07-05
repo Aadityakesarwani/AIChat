@@ -3,6 +3,8 @@
 ## Download Link: 
 https://drive.google.com/file/d/1fieQyGf7vcTz7_1wBnLyFkDO5UC_9zrq/view
 
+- You may need to provide your chatGpt api key if existing api key is expired.  
+
 ## Table of Contents
 
 - [Overview](#overview)
