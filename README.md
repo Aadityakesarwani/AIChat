@@ -1,6 +1,7 @@
 # AI Assistant ( AI Chat ) App
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+## Download Link: 
+https://drive.google.com/file/d/1fieQyGf7vcTz7_1wBnLyFkDO5UC_9zrq/view
 
 ## Table of Contents
 
